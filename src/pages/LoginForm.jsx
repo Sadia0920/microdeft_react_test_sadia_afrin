@@ -31,6 +31,9 @@ export default function LoginForm() {
       .then(res => res.json())
       .then(data => {
       console.log(data)
+      const token = data.data.token;
+      console.log(token)
+      localStorage.setItem('authToken', token);
       if(data.status == true){
         Swal.fire({
         title: 'Success',
