@@ -57,7 +57,7 @@ export default function StoreCoursesForm() {
   return (
     <div className='w-10/12 mx-auto py-7'>
       <Helmet>
-        <title>Store Course | Store Courses Form</title>
+        <title>Store-Course | Store Courses Form</title>
       </Helmet>
       <div className=' bg-base-200 rounded-xl p-10'>
         <h2 className='text-center text-4xl font-bold text-[#374151]'>Add Courses</h2>
